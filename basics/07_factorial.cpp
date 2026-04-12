@@ -1,4 +1,4 @@
-//This program can help to find the factorial of n number.
+//This program can help to find the factorial of number N.
 
 #include <iostream>
 using namespace std;
