@@ -5,8 +5,6 @@ using namespace std;
 
 int main() {
     int n;
-    int num = 1;
-    
     cout << "enter number: ";
     cin >> n;
 
