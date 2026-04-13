@@ -4,8 +4,9 @@
 using namespace std;
 
 int main() {
-    int n = 12;
+    int n;
     int num = 1;
+    
     cout << "enter number: ";
     cin >> n;
     cout << endl;
