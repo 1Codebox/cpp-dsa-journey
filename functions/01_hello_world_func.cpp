@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-void hello() {
+void hello() {        //function definition
     cout << "Hello World";
 }
 int main() {
     
-    hello();
+    hello();        //function invoke
 
 }
