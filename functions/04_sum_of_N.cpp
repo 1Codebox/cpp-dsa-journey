@@ -1,0 +1,23 @@
+//print sum of natural numbers from 1 to N
+
+#include <iostream>
+using namespace std;
+
+int sumN(int n) {
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += i;
+    }
+    return sum;
+}
+
+int main() {
+    int n;
+
+    cout << "Enter Number: ";
+    cin >> n;
+
+    cout << "Sum of Natural Number = " << sumN(n);
+
+    return 0;
+}
